@@ -7,10 +7,15 @@ require 'webrick'
 server = WEBrick::HTTPServer.new(Port: 3000)
 
 # Define uma resposta para a rota raiz "/"
-server.mount_proc '/' do |_req, res|
+server.mount_proc '/' do |req, res|
+  # Imprime a requisicao completa no console para analise
+  puts '--- INICIO DA REQUISICAO ---'
+  puts req
+  puts '--- FIM DA REQUISICAO'
+
   res.status = 200
   res['Content-Type'] = 'text/plain'
-  res.body = 'Hello, World!'
+  res.body = 'Requisicao recebida e logada no console'
 end
 
 # Permite parar o servidor com Ctrl+C no terminal
