@@ -6,4 +6,4 @@ para um stack mais completo com frameworks e containers.
 **Fases:**
 
 - [X] Fase 0: Bootstrap e Git
-- [ ] Fase 1: HTTP cru + Fundamentos de Rede
+- [X] Fase 1: HTTP cru + Fundamentos de Rede

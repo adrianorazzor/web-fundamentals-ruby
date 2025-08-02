@@ -11,12 +11,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.7.1, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.5, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="logger (v1.7.0, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="prism (v1.4.0, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rbs (v3.9.4, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ruby-lsp (v0.26.1, rbenv: 3.4.4) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="webrick (v1.9.1, rbenv: 3.4.4) [gem]" level="application" />
   </component>
 </module>
