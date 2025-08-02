@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/.iml" filepath="$PROJECT_DIR$/.idea/modules/.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.iml" filepath="$PROJECT_DIR$/.idea/modules/1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bin.iml" filepath="$PROJECT_DIR$/.idea/modules/bin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/web_fundamentals_ruby.iml" filepath="$PROJECT_DIR$/.idea/web_fundamentals_ruby.iml" />
     </modules>
   </component>

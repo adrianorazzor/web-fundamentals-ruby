@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>API Tester</title></head>
+<body>
+<h1>Teste da API de Livros</h1>
+<script>
+    // Simula um frontend em outra origem
+    const API_URL = 'http://localhost:9292/api/books';
+
+    async function testApi() {
+        console.log('Criando um livro...');
+        await fetch(API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ title: 'O Hobbit', author: 'J.R.R. Tolkien' })
+        });
+
+        console.log('Listando livros...');
+        const response = await fetch(API_URL);
+        const books = await response.json();
+        console.log('Livros encontrados:', books);
+    }
+    testApi();
+</script>
+</body>
+</html>
